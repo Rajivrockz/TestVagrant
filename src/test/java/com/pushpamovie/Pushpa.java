@@ -61,7 +61,8 @@ public class Pushpa extends BaseClass{
 		wikiCountryOrgin = wiki.getWikiCountryOrgin();
 	}
 	/**
-	 * @Description validation method
+	 * @Description validating imdb and wiki data 
+	 * 
 	 */
 	@Test(priority=3)
 	private void validation() {
