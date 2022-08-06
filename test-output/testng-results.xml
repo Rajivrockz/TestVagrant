@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74196" started-at="2022-08-06T05:52:28Z" finished-at="2022-08-06T05:53:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74196" started-at="2022-08-06T05:52:28Z" finished-at="2022-08-06T05:53:43Z">
+      <class name="com.pushpamovie.Pushpa">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.pushpamovie.Pushpa@6e06451e]" name="beforeclass" is-config="true" duration-ms="32601" started-at="2022-08-06T11:22:28Z" finished-at="2022-08-06T11:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="launchImdb()[pri:1, instance:com.pushpamovie.Pushpa@6e06451e]" name="launchImdb" duration-ms="25755" started-at="2022-08-06T11:23:01Z" finished-at="2022-08-06T11:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchImdb -->
+        <test-method status="PASS" signature="launchWiki()[pri:2, instance:com.pushpamovie.Pushpa@6e06451e]" name="launchWiki" duration-ms="15465" started-at="2022-08-06T11:23:27Z" finished-at="2022-08-06T11:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWiki -->
+        <test-method status="FAIL" signature="validation()[pri:3, instance:com.pushpamovie.Pushpa@6e06451e]" name="validation" duration-ms="124" started-at="2022-08-06T11:23:42Z" finished-at="2022-08-06T11:23:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verify the Date is Same expected [2021-12-17] but found [2022-01-07]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verify the Date is Same expected [2021-12-17] but found [2022-01-07]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at com.pushpamovie.Pushpa.validation(Pushpa.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+      </class> <!-- com.pushpamovie.Pushpa -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
